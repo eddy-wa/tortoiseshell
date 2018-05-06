@@ -1,9 +1,13 @@
-body {
-  background-color: white;
+html {
   font-size: 18px;
-  line-height: 1.4;
-  font-family: Helvetica;
 }
+
+body {
+  font-family: Helvetica;
+  background-color: white;
+  line-height: 1.4;
+}
+
 
 header, main, footer {
   display: flex;
@@ -16,6 +20,7 @@ header {
   background-image: url('../images/glasses-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
@@ -58,10 +63,6 @@ header {
   font-size: 1rem;
   color: white;
   text-decoration: none;
-}
-
-.banner span {
-  display: none;
 }
 
 .banner a.mobile {
@@ -205,7 +206,7 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 650px)
 {
   header {
     height: 17rem;
